@@ -1,0 +1,67 @@
+{
+    "@odata.type":  "#microsoft.graph.windows10CustomConfiguration",
+    "id":  "96203e83-eec0-4a88-bd9d-9204f4ce3fc7",
+    "lastModifiedDateTime":  "2020-04-22T20:27:39.5654411Z",
+    "roleScopeTagIds":  [
+                            "0"
+                        ],
+    "supportsScopeTags":  false,
+    "deviceManagementApplicabilityRuleOsEdition":  null,
+    "deviceManagementApplicabilityRuleOsVersion":  null,
+    "deviceManagementApplicabilityRuleDeviceMode":  null,
+    "createdDateTime":  "2020-04-22T16:18:39.8172403Z",
+    "description":  null,
+    "displayName":  "Configuration - Windows 10 Update Compliance Commercial ID",
+    "version":  5,
+    "omaSettings":  [
+                        {
+                            "@odata.type":  "#microsoft.graph.omaSettingInteger",
+                            "displayName":  "Telemetry",
+                            "description":  "Set Windows Telemetry",
+                            "omaUri":  "./Vendor/MSFT/Policy/Config/System/AllowTelemetry",
+                            "secretReferenceValueId":  null,
+                            "isEncrypted":  false,
+                            "value":  3,
+                            "isReadOnly":  false
+                        },
+                        {
+                            "@odata.type":  "#microsoft.graph.omaSettingString",
+                            "displayName":  "CommercialID",
+                            "description":  "Set Commercial ID",
+                            "omaUri":  "./Vendor/MSFT/DMClient/Provider/MS DM Server/CommercialID",
+                            "secretReferenceValueId":  "",
+                            "isEncrypted":  false,
+                            "value":  "1"
+                        },
+                        {
+                            "@odata.type":  "#microsoft.graph.omaSettingInteger",
+                            "displayName":  "Allow Device Name",
+                            "description":  "Configuring  Device Name for Update Compliance",
+                            "omaUri":  "./Vendor/MSFT/Policy/Config/System/AllowDeviceNameInDiagnosticData",
+                            "secretReferenceValueId":  null,
+                            "isEncrypted":  false,
+                            "value":  1,
+                            "isReadOnly":  false
+                        },
+                        {
+                            "@odata.type":  "#microsoft.graph.omaSettingInteger",
+                            "displayName":  "Disable Configure Telemetry",
+                            "description":  "Disable Configure Telemetry",
+                            "omaUri":  "./Vendor/MSFT/Policy/Config/System/ConfigureTelemetryOptInSettingsUx",
+                            "secretReferenceValueId":  null,
+                            "isEncrypted":  false,
+                            "value":  1,
+                            "isReadOnly":  false
+                        },
+                        {
+                            "@odata.type":  "#microsoft.graph.omaSettingInteger",
+                            "displayName":  "LimitEnhancedDiagnosticDataWindowsAnalytics ",
+                            "description":  "LimitEnhancedDiagnosticDataWindowsAnalytics ",
+                            "omaUri":  "./Vendor/MSFT/Policy/Config/System/LimitEnhancedDiagnosticDataWindowsAnalytics",
+                            "secretReferenceValueId":  null,
+                            "isEncrypted":  false,
+                            "value":  1,
+                            "isReadOnly":  false
+                        }
+                    ]
+}

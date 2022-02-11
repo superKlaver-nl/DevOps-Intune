@@ -1,0 +1,19 @@
+{
+    "@odata.type":  "#microsoft.graph.windowsHealthMonitoringConfiguration",
+    "id":  "c7e94dd4-cdf1-4be0-8c2d-d5929331256f",
+    "lastModifiedDateTime":  "2022-01-11T13:25:30.4516718Z",
+    "roleScopeTagIds":  [
+                            "0"
+                        ],
+    "supportsScopeTags":  false,
+    "deviceManagementApplicabilityRuleOsEdition":  null,
+    "deviceManagementApplicabilityRuleOsVersion":  null,
+    "deviceManagementApplicabilityRuleDeviceMode":  null,
+    "createdDateTime":  "2022-01-11T13:25:30.4516718Z",
+    "description":  null,
+    "displayName":  "Configuration - Windows 10 Health Monitoring",
+    "version":  1,
+    "allowDeviceHealthMonitoring":  "enabled",
+    "configDeviceHealthMonitoringScope":  "bootPerformance,windowsUpdates",
+    "configDeviceHealthMonitoringCustomScope":  null
+}

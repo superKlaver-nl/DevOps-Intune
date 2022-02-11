@@ -1,0 +1,27 @@
+{
+    "@odata.type":  "#microsoft.graph.windows10CustomConfiguration",
+    "id":  "dd75621d-75d1-46a7-ba70-b699fd36917c",
+    "lastModifiedDateTime":  "2022-01-11T14:16:47.5734684Z",
+    "roleScopeTagIds":  [
+                            "0"
+                        ],
+    "supportsScopeTags":  false,
+    "deviceManagementApplicabilityRuleOsEdition":  null,
+    "deviceManagementApplicabilityRuleOsVersion":  null,
+    "deviceManagementApplicabilityRuleDeviceMode":  null,
+    "createdDateTime":  "2022-01-11T14:16:47.5734684Z",
+    "description":  null,
+    "displayName":  "Configuration - Windows 10-Timezone",
+    "version":  1,
+    "omaSettings":  [
+                        {
+                            "@odata.type":  "#microsoft.graph.omaSettingString",
+                            "displayName":  "Set time zone",
+                            "description":  null,
+                            "omaUri":  "./Device/Vendor/MSFT/Policy/Config/TimeLanguageSettings/ConfigureTimeZone",
+                            "secretReferenceValueId":  "",
+                            "isEncrypted":  false,
+                            "value":  "W. Europe Standard Time"
+                        }
+                    ]
+}
